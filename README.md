@@ -2,6 +2,14 @@
 
 This repo presents how you can fine tune an LLM on a text content scraped from a web site, in this example, ray.io, and serve it as a REST API. This codebase is highly influenced by the [Ray](http://ray.io) example  [here](https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1), so credits go to the Ray team!
 
+you will get the following from this repository
+
+1. Fine tuning an LLM
+2. Populate a vector database with and embedding model, so able to query your context similarty in the vector database
+3. Fine tune with Ray framework
+4. Use CPU and GPU for fine tuning and serving
+5. Serve your fine tuned LLM as REST API.
+
 The following sections explain each step of LLM fine tuning and serving it, i.e. from scraping a web page to serving the fine tuned LLM with Vector Database backed (PG Vector) as Rest API.
 
 
